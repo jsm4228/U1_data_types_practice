@@ -4,6 +4,8 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
+let myFavoriteSong = 'White Ferrari'
+console.log(`my favorite song is ${myFavoriteSong}`)
 
 /*
  * Prompt 2:
