@@ -87,7 +87,7 @@ console.log(array3[1][1][1].toString())
  */
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
-console.log(array4[array4.length-1])
+console.log(array4[array4.length-2])
 
 /*
  * Prompt 3:
@@ -100,12 +100,28 @@ let karolin = ['Karolin', 16, 'New York'];
 let kristyn = ['Kristyn', 5, 'Pittsburgh'];
 let cathleen = ['Cathleen', 186, 'New York'];
 
+
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
+
+thom[0] = 'Tom'
 
 // Karolin just had her birthday; change Karolin's array to reflect her being
 // a year older.
 
+karolin[1]+=1
+
+
 // Change Cathleen's hometown from New York to "Gotham City".
 
+cathleen[2] = 'Gotham City'
+
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+
+kristyn.pop()
+kristyn.push('Oakland')
+
+console.log(thom)
+console.log(karolin)
+console.log(kristyn)
+console.log(cathleen)
